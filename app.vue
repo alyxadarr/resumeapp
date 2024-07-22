@@ -3,11 +3,10 @@
     <v-app>
       <NuxtPage />
 <template>
-  <v-card class="mx-auto" color="grey-lighten-3">
+  <v-card color="grey-lighten-3">
     <v-layout>
       <v-app-bar
-        color="teal-darken-4"
-        image="https://picsum.photos/1920/1080?random"
+        color="white"
       >
         <template v-slot:image>
           <v-img
@@ -15,20 +14,18 @@
           ></v-img>
         </template>
 
-        <template v-slot:prepend>
+        <template>
           <v-app-bar-nav-icon></v-app-bar-nav-icon>
         </template>
 
         <v-app-bar-title>Alexa's Resume App</v-app-bar-title>
 
         <v-spacer></v-spacer>
-
-        <v-btn icon>
-          <v-icon>mdi-magnify</v-icon>
+        <v-btn >
+          Projects
         </v-btn>
-
-        <v-btn icon>
-          <v-icon>mdi-heart</v-icon>
+        <v-btn >
+          Resume
         </v-btn>
 
         <v-btn icon>
@@ -40,7 +37,7 @@
         <v-container fluid>
           <v-row dense>
             <v-col
-              v-for="n in 4"
+              v-for="n in 2"
               :key="n"
               cols="12"
             >
