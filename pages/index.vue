@@ -5,6 +5,9 @@
     <v-toolbar-title class="secondary--text text-center"> Alexa Darrington </v-toolbar-title>
     <v-btn to="/resume"> Resume </v-btn>
     <v-btn to="/projects"> Projects </v-btn>
+    <v-btn icon to="/contact">
+  <v-icon>mdi-phone-classic</v-icon>
+</v-btn>
   </v-toolbar>
   <v-card
     color="primary"
