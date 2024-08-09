@@ -5,7 +5,7 @@
     elevation="4"
   >
     <v-card-title class="custom-font large-font">
-      CONNECT WITH ME 😊 📞
+      CONNECT WITH ME 😊📞
     </v-card-title>
     <v-card-title class="custom-font">
       Shoot me a message or connect with me on LinkedIn!
@@ -98,6 +98,6 @@ const submit = handleSubmit((values) => {
   font-family: "YourFont", sans-serif;
 }
 .large-font {
-  font-size: 24px; /* Adjust this to the desired size */
+  font-size: 22px; /* Adjust this to the desired size */
 }
 </style>

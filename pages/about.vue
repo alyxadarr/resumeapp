@@ -4,7 +4,7 @@
     class="mx-auto mt-8 w-75 pa-8 rounded text-center"
     elevation="4"
   >
-    <v-card-title class="custom-font text-wrap"> ABOUT ME </v-card-title>
+    <v-card-title class="custom-font text-wrap"> ABOUT ALEXA </v-card-title>
     <v-card-subtitle class="custom-font text-wrap">
       I am currently a senior at Eastern Washington University in Spokane,WA
     </v-card-subtitle>

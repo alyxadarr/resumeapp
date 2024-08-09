@@ -5,7 +5,7 @@
     elevation="4"
   >
     <v-card-title class="custom-font text-wrap"> ALEXA'S RESUME </v-card-title>
-    <v-card-actions class="justify-center mx-2 my-4"></v-card-actions>
+    <v-card-actions class="justify-center mx-2 "></v-card-actions>
 
     <v-divider class="my-2"></v-divider>
 
