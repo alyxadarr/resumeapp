@@ -7,10 +7,8 @@
     <v-card-title class="custom-font text-wrap"> ALEXA'S RESUME </v-card-title>
     <v-card-actions class="justify-center mx-2 my-4"></v-card-actions>
 
-    <!-- Spacer or Divider (optional) -->
     <v-divider class="my-2"></v-divider>
 
-    <!-- PDF Resume -->
     <embed
       src="/resume.pdf"
       type="application/pdf"
