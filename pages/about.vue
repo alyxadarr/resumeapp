@@ -1,7 +1,6 @@
 <template>
     <v-card
-      color="primary"
-      class="mx-auto mt-8 w-75 pa-8 rounded text-center"
+      class="mx-auto mt-8 w-75 pa-8 rounded text-center custom-border"
       elevation="4"
     >
       <v-card-title class="custom-font text-wrap"> ABOUT ALEXA </v-card-title>
@@ -13,7 +12,7 @@
       </v-card-subtitle>
       <v-card-title class="custom-font text-wrap"> Stacks Technologies Alexa Uses: </v-card-title>
         <v-container>
-        <v-table >
+        <v-table class ="custom-border">
           <thead>
             <tr>
               <th class="text-center">Languages/Tools</th>
@@ -105,5 +104,10 @@
 
 .custom-font {
   font-family: "YourFont", sans-serif;
+}
+
+.custom-border {
+  border: 2px solid #F48FB1; 
+  border-radius: 8px; 
 }
 </style>

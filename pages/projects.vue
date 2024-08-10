@@ -1,14 +1,13 @@
 <template>
     <v-card
-      color="primary"
-      class="mx-auto mt-8 w-75 pa-8 rounded text-center"
+      class="mx-auto mt-8 w-75 pa-8 rounded text-center custom-border"
       elevation="4"
     >
       <v-card-title class="custom-font text-wrap"> PROJECTS & INVOLVEMENTS </v-card-title>
   
       <v-carousel show-arrows="hover">
         <v-carousel-item
-          src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+          src="https://cdn.vuetifyjs.com/images/cards/dock.jpg"
           cover
           @click="goToProject('project1')"
         ></v-carousel-item>
@@ -20,8 +19,8 @@
         ></v-carousel-item>
   
         <v-carousel-item
-          src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
-          cover
+          src="/public/hackathon.jpeg"
+          contain
           @click="goToProject('project3')"
         ></v-carousel-item>
       </v-carousel>
@@ -52,5 +51,10 @@
 
 .custom-font {
   font-family: "YourFont", sans-serif;
+}
+
+.custom-border {
+  border: 2px solid #F48FB1; 
+  border-radius: 8px; 
 }
 </style>

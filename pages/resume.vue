@@ -1,7 +1,6 @@
 <template>
   <v-card
-    color="primary"
-    class="mx-auto mt-8 w-75 pa-8 rounded text-center"
+    class="mx-auto mt-8 w-75 pa-8 rounded text-center custom-border"
     elevation="4"
   >
     <v-card-title class="custom-font text-wrap"> ALEXA'S RESUME </v-card-title>
@@ -36,5 +35,10 @@ export default {
 
 .custom-font {
   font-family: "YourFont", sans-serif;
+}
+
+.custom-border {
+  border: 2px solid #F48FB1; 
+  border-radius: 8px; 
 }
 </style>

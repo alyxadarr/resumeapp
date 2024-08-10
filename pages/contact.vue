@@ -1,15 +1,22 @@
 <template>
-  <v-card
-    color="primary"
-    class="mx-auto mt-8 w-75 pa-8 rounded text-center"
-    elevation="4"
-  >
-    <v-card-title class="custom-font large-font">
-      CONNECT WITH ME 😊📞
-    </v-card-title>
-    <v-card-title class="custom-font">
-      Shoot me a message or connect with me on LinkedIn!
-    </v-card-title>
+    <v-card
+      color="primary"
+      class="mx-auto mt-8 w-75 pa-8 rounded text-center"
+      elevation="4"
+    >
+      <v-card-title class="custom-font large-font">
+        CONNECT WITH ME 😊
+      </v-card-title>
+      <v-card-title class="custom-font">
+        Shoot me a message or connect with me on 
+        <a 
+          href="https://www.linkedin.com/in/alexa-darrington/" 
+          target="_blank"
+          class="underline-link"
+        >
+          LinkedIn
+        </a>!
+      </v-card-title>
     <form @submit.prevent="submit">
       <v-text-field
         v-model="name.value.value"
