@@ -12,18 +12,16 @@
         am always looking for new opportunities to learn and grow.
       </v-card-subtitle>
       <v-card-title class="custom-font text-wrap"> Stacks Technologies Alexa Uses: </v-card-title>
-  
-      <!-- Table with padding and margin -->
-      <v-container>
+        <v-container>
         <v-table >
           <thead>
             <tr>
-              <th class="text-left">Languages/Tools</th>
-              <th class="text-left">Proficiency Level</th>
+              <th class="text-center">Languages/Tools</th>
+              <th class="text-center">Proficiency Level</th>
             </tr>
           </thead>
           <tbody>
-            <tr v-for="item in desserts" :key="item.name" class="pa-2">
+            <tr v-for="item in skills" :key="item.name" class="pa-2">
               <td>{{ item.name }}</td>
               <td>{{ item.level }}</td>
             </tr>
@@ -38,13 +36,12 @@
             <li><strong>1 -</strong> Fundamental Awareness (basic knowledge).</li>
             <li><strong>2 -</strong> Novice (limited experience).</li>
             <li><strong>3 -</strong> Intermediate (practical application).</li>
-            <li><strong>4 -</strong> Advanced (applied theory).</li>
-            <li><strong>5 -</strong> Expert (recognized authority).</li>
+            <li><strong>4 -</strong> Advanced.</li>
+            <li><strong>5 -</strong> Expert.</li>
           </ul>
         </v-card-subtitle>
       </v-container>
   
-      <!-- Home button with margin top -->
       <v-container class="mt-4">
         <v-btn to="/"> Home </v-btn>
       </v-container>
@@ -57,7 +54,7 @@
   export default {
     data() {
       return {
-        desserts: [
+        skills: [
           {
             name: 'Java',
             level: 3,
