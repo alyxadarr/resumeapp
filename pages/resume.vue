@@ -10,7 +10,7 @@
     <v-divider class="my-2"></v-divider>
 
     <embed
-      src="/resume.pdf"
+      src="/adresume.pdf"
       type="application/pdf"
       width="100%"
       height="1200px"
